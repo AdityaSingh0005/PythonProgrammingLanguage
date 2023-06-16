@@ -1,6 +1,7 @@
-a = input("Enter number a: ")
-b = input("Enter number b: ")
-if(a>b):
-    print("A is Greater than B")
-else:
-    print("B is Greater than A")
+# String Slicing
+names = "Aditya, Shubham"
+fruit = "Mango"
+len1 = len(fruit)
+print(names[0:5])
+print(len(names))
+print("Mango is a", len1, "letter word.")
