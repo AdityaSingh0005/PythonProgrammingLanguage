@@ -18,3 +18,5 @@ print("HEllo, " + str(fruit))
 print("Lets use a for loop\n")
 for character in name:
     print(character)
+
+print(name[4])
